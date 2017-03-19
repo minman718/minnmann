@@ -1,2 +1,1 @@
-# minmanIONS
-my site
+# MinManIONS
