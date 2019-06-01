@@ -1,0 +1,24 @@
+{
+  "name": "minnmann",
+  "version": "1.0.0",
+  "description": "Its a self art gallery by MiniMANU",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/minman718/minnmann.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/minman718/minnmann/issues"
+  },
+  "homepage": "https://github.com/minman718/minnmann#readme",
+  "dependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-react-app": "^3.1.2"
+  }
+}
