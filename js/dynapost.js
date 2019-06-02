@@ -1,31 +1,15 @@
 "use strict";
 
-var data = [{
-  img: "giraffe.jpg",
-  title: "So calm (Awarded No 1 art of this blog)",
-  text: "This came to the eyes of Judges and they can't be stopped about how beautiful this image is. Its beauty lies in its simplicity. It is drawn by a child of 11years who aspires to be an artist.",
-  date: 2,
-  month: "may"
-}, {
-  img: "batman.jpg",
-  title: "Batman",
-  text: "Batman art",
-  date: 10,
-  month: "may"
-}, {
-  img: "jungle.jpg",
-  title: "Lake View",
-  text: "Animals",
-  date: 1,
-  month: "feb"
-}, {
-  img: "tiger.jpg",
-  title: "Tiger",
-  text: "Tiger from the britannia biscuit",
-  date: 6,
-  month: "apr"
-}];
-
+function shuffle(a) {
+  for (var i = a.length - 1; i > 0; i--) {
+    var j = Math.floor(Math.random() * (i + 1));
+    var _ref = [a[j], a[i]];
+    a[i] = _ref[0];
+    a[j] = _ref[1];
+  }
+  return a;
+}
+shuffle(data);
 function Article(props) {
   var i = props.i;
   if ((i + 1) % 2 == 0) {
@@ -73,7 +57,7 @@ function Article(props) {
       React.createElement(
         "div",
         { "class": "s-12 l-6 post-image" },
-        React.createElement("img", { src: "img/" + props.data.img, alt: "Fashion 1" })
+        React.createElement("img", { src: "img/" + props.data.img, alt: "Image" })
       ),
       React.createElement(
         "div",
