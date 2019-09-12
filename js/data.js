@@ -172,11 +172,11 @@ var data = [
     month: "apr"
   },
 {
-    img: "tiger.jpg",
-    title: "Tiger",
-    text: "Tiger from the britannia biscuit",
-    date: 6,
-    month: "apr"
+    img: "IMG_20190912_153138.jpg",
+    title: "girl",
+    text: "",
+    date: 12,
+    month: "sep"
   }
 
 ];
