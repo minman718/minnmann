@@ -170,6 +170,13 @@ var data = [
     text: "Tiger from the britannia biscuit",
     date: 6,
     month: "apr"
+  },
+{
+    img: "tiger.jpg",
+    title: "Tiger",
+    text: "Tiger from the britannia biscuit",
+    date: 6,
+    month: "apr"
   }
 
 ];
